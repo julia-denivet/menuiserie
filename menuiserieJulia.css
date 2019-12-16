@@ -1,0 +1,254 @@
+.pages
+
+{
+    display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	background-image: url("images/acceuil.jpg");
+    background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+    height: 100vh;
+    font-family: 'Baskervville', serif;
+}
+
+
+/*Header*/
+
+  
+  .pages {
+    
+   
+    height: 100vh;
+    font-family: 'Baskervville', serif;
+  }
+  
+  .ulheader {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
+    color: white;
+  }
+  
+  .aheader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    color: white;
+    text-decoration: none;
+    font-family: "Medium";
+    font-size: 20px;
+    font-family: 'Baskervville', serif;
+  }
+  
+  .aheader:hover {
+    -webkit-transform: rotate(-15deg);
+    transform: rotate(-15deg);
+    color: #E0CDA9;
+  }
+  
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #222222;
+    padding: 20px 0px;
+    width: 100%;
+    color: white;
+    height: 70px;
+  }
+  
+  .navheader {
+    width: 65%;
+  }
+  
+  footer {
+    background-color: #222222;
+    padding: 1px 0px;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  .lienfooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    color: white;
+  }
+  
+  .logomenuiserie {
+    width: 5vw;
+  }
+
+  
+
+/*Acceuil*/
+
+.bodyacc{
+    margin: 0;
+    background-image: url("images/accueil.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: 'Baskervville', serif;
+	}
+
+
+
+
+.sectionacceuil
+{
+    height: 70vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.H1co
+{
+    justify-content: center;
+	font-family: "Black";
+	color: white;
+	font-size: 72px;
+    padding-left: 100px;
+    font-family: 'Baskervville', serif;
+    text-shadow: 2px 2px 3px black, 0 0 1.5em black, 0 0 0.4em black;
+    
+}
+
+#spanacceuil
+{
+    color: brown;
+}
+
+
+
+
+
+#ah1index
+
+{
+    font-size: 72px;
+    text-decoration: none;
+}
+
+/*Contacts*/
+
+.bodycontact
+{
+  
+    margin: 0;
+    background-image: url("images/accueil.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: 'Baskervville', serif;
+    
+
+   
+}
+
+.formcontact,.sectioncontact
+{
+  display: flex;
+    flex-direction: row;
+    
+}
+
+.formcontact
+{
+    margin: auto;
+    padding: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:black;
+    width: 200px;
+    margin-bottom: 80px;
+    font-family: 'Baskervville', serif;
+}
+
+.button
+{
+    margin-right: 40px;
+    margin-left: 50px;
+    color: white;
+    border: solid white 5px;
+    border-radius: 20px;
+    background-image: url(images/inputvalidercontact.jfif);
+    text-align: center;
+    font-family: 'Baskervville', serif;
+    
+   
+}
+
+.
+
+.sectioncontact
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.flexart
+{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-shadow: 2px 2px 3px black, 0 0 1.5em black, 0 0 0.4em black;
+    margin-right: 50px;
+    overflow-wrap: normal;
+    line-height: 40%;
+    border: solid black 5px;
+    border-radius: 20px;
+    height: 120px;
+    margin-top: 400px;
+    
+   
+}
+
+.inputcontact
+{
+  border-radius: 20px;
+  font-family: 'Baskervville', serif;
+  text-align: center;
+  color: white;
+  background-image: url(images/inputvalidercontact.jfif);
+  width: 210px;
+  height: 50px;
+  
+}
+}
+textarea
+{
+  color: white;
+}
+
+.H1contact
+{
+  overflow-wrap: normal;
+  color: white;
+  text-shadow: 2px 2px 3px black, 0 0 1.5em black, 0 0 0.4em black;
+  text-align: center;
+}
+
+#presentetoicontact
+{
+  color: white;
+  text-shadow: 2px 2px 3px black, 0 0 1.5em black, 0 0 0.4em black;
+  margin-left: 55px;
+}
+
+
+
+
