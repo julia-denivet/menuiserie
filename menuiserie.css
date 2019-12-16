@@ -163,6 +163,13 @@ footer {
     }
 }
 
+/*PRESENTATION*/
+
+#barjol
+{
+    border-radius: 20px;
+}
+
 /*Acceuil*/
 
 .bodyacc{
