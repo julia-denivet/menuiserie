@@ -101,6 +101,7 @@ footer {
 .slider {
     width: 1416px;
     transition: 1s ease;
+    
 }
 
 .slide {
@@ -112,6 +113,7 @@ footer {
     vertical-align: middle;
     width: 350px;
     height: inherit;
+    border-radius: 20px;
 }
 
 .imgslide:nth-child(1) {
