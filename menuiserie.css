@@ -332,6 +332,58 @@ textarea
   margin-left: 55px;
 }
 
+/*Realisation*/
+
+.bodyrea
+{
+    height: 100vh;
+    margin: 0;
+    font-family: 'Baskervville', serif;
+    background-color: #222222 ;
+}
+.sectionflexrea
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    animation: fadein 15s;
+    -moz-animation: fadein 15s; /* Firefox */
+    -webkit-animation: fadein 15s; /* Safari et Chrome */
+    -o-animation: fadein 15s; /* Opera */
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%; 
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+  
+.articleflexrea
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 15px;
+}
+
+.imgrea
+{
+    width: 230px;
+    height: 240px;
+    border-radius: 20px;
+}
+
+
 
 
 
